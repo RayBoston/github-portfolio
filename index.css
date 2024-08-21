@@ -1,3 +1,10 @@
-*{
+* {
     font-family: "DM Serif Text";
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: #f85b68;
+    font-size: 16px;
 }
