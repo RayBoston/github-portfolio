@@ -1,0 +1,354 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+	padding-top: 63px;
+	padding-left: 12%;
+	background-color: #161718; /**262729 **/
+	font-family: Lato;
+	color: white;
+}
+body::-webkit-scrollbar{
+	background-color: transparent;
+	width: 10px;
+
+}
+body::-webkit-scrollbar-corner{
+	background-color: transparent;
+}
+body::-webkit-scrollbar-thumb{
+	background-color: #404246;
+	border-radius: 10px; 
+}
+#blank{
+	width: 25.7%;
+	height: 63px;
+	background-color: black;
+	position: fixed;
+	top: 0;
+	left: 74.3%;
+}
+#blank2{
+	width: 4%;
+	height: 100%;
+	background-color: black;
+	position: fixed;
+	right: 96%;
+	top: 0;
+}
+#challenge{
+	width: 33.33%;
+	font-size: 0.875rem;
+	line-height: 1.5em;
+	font-weight: 100;
+	background-image: linear-gradient(0.25turn, #3E4B62 0%, #555555 50%, #67563A 100%);
+}
+#challenge h2{
+	font-size: 1rem!important;
+	font-weight: 100;
+	margin: 20px 0 27.5px 16px;
+}
+#challenge button{
+	text-transform: uppercase;
+	font-size: 0.75rem;
+	color: white;
+	border: 1px solid white;
+	border-radius: 4px;
+	background-color: #424242;
+	padding: 9px 10px 7px;
+	letter-spacing: .2px;
+	transition: background-color .15s ease-in-out;
+}
+#challenge button:hover{
+	background-color: black;
+	cursor: pointer;
+}
+#challenge a{
+	text-decoration: none;
+	color: white;
+	font-size: 0.875rem;
+	transition: .15s ease-in-out;
+	position: relative;
+	top: 50px;
+	left: 3.25%;
+}
+#challenge a:hover{
+	color: #6795de;
+}
+#challenge p{
+	border: 1px solid gray;
+	width: 90%;
+	height: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 20px;
+	padding-top: 10px;
+}
+#challenge button{
+	position: relative;
+	top: 3px;
+	left: 30%;
+	margin-right: 8px;
+}
+.background {
+	width: 90%;
+	height: 275px;
+	border-radius: 8px;
+	border: 1px solid transparent;
+	overflow: hidden;
+}
+.challenge{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	border-width: 4px;
+	border-style: solid;
+	border-image: linear-gradient(to right, #647A9F, 50%, orange) 1;
+}
+.challenge h2{
+margin-top: 10px;
+margin-bottom: 0;	
+}
+#example{
+	width: 66.66%;
+	background-image: linear-gradient(0.25turn, #2A2A2A, 30%, #31250D);
+}
+#scroll{
+	overflow: scroll;
+	height: 195px;
+	width: 97.75%;
+	padding-left: 15px;
+	scrollbar-width: 10px;
+	font-size: 0.97rem;
+	line-height: 1.6;
+}
+#scroll::-webkit-scrollbar{
+	background-color: transparent;
+	width: 10px;
+
+}
+#scroll::-webkit-scrollbar-corner{
+	background-color: transparent;
+}
+#scroll::-webkit-scrollbar-thumb{
+	background-color: #404246;
+	border-radius: 10px; 
+}
+#head {
+	height: 35px;
+}
+#head h2{
+	position: relative;
+	top: 12px;
+	left: 50px;
+}
+#head h2, #scroll h3{
+	font-size: 1.125rem!important;
+	font-weight: 100;
+}
+#foot{
+	display: inline-block;
+}
+#foot p{
+	display: inline;
+	font-size: 0.625rem;
+	background-color: #3C3C3C;
+	border: 1px solid transparent;
+	padding: 5px 5px;
+	margin: auto 10px auto 0;
+	letter-spacing: .4px;
+	border-radius: 4px;
+	text-transform: uppercase;
+	position: relative;
+	bottom: 10px;
+	left: 15px;
+}
+.allies {
+	height: 140px;
+	width: 61%;
+	background-image: linear-gradient(to right, #27272A, 50%, #161718);
+	font-size: 0.875rem;
+	padding: 1.5rem;
+	border-radius: 8px;
+	margin-top: 1.2rem;
+}
+.allies h3, .allies p,.allies a {
+	margin-left: 5.5rem;
+}
+.allies h3 {
+	margin-bottom: 0;
+	margin-top: 0.1rem;
+}
+.allies p{
+	margin-top: 0.2rem;
+	margin-bottom: 1.5rem;
+}
+.allies a {
+	text-decoration: none;
+	color: #6795de;
+	border: 1px solid #6795de;
+	padding: 0.45rem 0.6rem;
+	border-radius: 4px;
+	text-transform: uppercase;
+	font-size: 0.71rem !important;
+	transition: .1s ease-in-out;
+	background-color: #161718;
+}
+.allies a:hover {
+	color: #91b2e7;
+	background-color: black;
+}
+.ads {
+	height: 140px;
+	font-size: 0.84rem;
+	width: 29%;
+	background-color: #27272A;
+	padding: 1rem;
+	border-radius: 8px;
+	margin-top: 1.2rem;
+	line-height: 1.2rem;
+}
+.ads img {
+	width: 36%;
+	height: 77%;
+	border-radius: 3px;
+	float: left;
+	margin-right: 1rem;
+}
+.ads a {
+	text-decoration: none;
+	color: gray;
+	transition: .2s ease-in-out;
+}
+.ads a:hover {
+	color: #4b66ce;
+}
+#white {
+	color: white;
+	transition: .15s ease-in-out;
+}
+#white:hover {
+	color: #6795de;
+}
+#gray {
+	float: left;
+	clear: left;
+	font-size: .75rem;
+}
+#allies {
+	height: 180px;
+	width: 90%;
+	background-color: #27272A;
+	font-size: 0.875rem;
+	padding: 1rem;
+	margin-top: 1.2rem;
+	border-radius: 8px;
+}
+#allies h3 {
+	margin-top: 0;
+}
+#allies p {
+	font-size: 0.83rem;
+	line-height: 1.2rem;
+	margin-bottom: 0;
+}
+#allies th{
+margin-top: 0;
+text-align: left;
+height: 2rem;
+}
+#allies td {
+	background-color: #404246;
+	height: 2rem;
+	width: 35%;
+	border: 1px solid #404246;
+}
+.flex {
+	display: flex;
+	flex-wrap: wrap;
+}
+#discourse {
+	width: 90%;
+	height: 500px;
+	background-color: #27272A;
+	font-size: 0.875rem;
+	padding: 1rem;
+	margin-top: 1.2rem;
+	border-radius: 8px;
+}
+#discourse h4 {
+	margin-top: 0;
+	display: inline-block;
+	font-size: 1rem;
+}
+#discourse ul {
+	display: inline-block;
+}
+#discourse li {
+	display: inline-block;
+}
+#discourse li + li::before {
+	content: "|";
+	margin: 1rem;
+	color: #c0c0c0;
+}
+#discourse a {
+	text-decoration: none;
+	color: #c0c0c0;
+	transition: 0.2s ease-in-out;
+}
+#discourse a:hover {
+	color: #6795de;
+}
+.load{
+	text-decoration: none;
+	color: #6795de !important;
+	border: 1px solid #6795de;
+	padding: 0.5rem 0.6rem;
+	border-radius: 4px;
+	text-transform: uppercase;
+	font-size: 0.71rem !important;
+	transition: .1s ease-in-out;
+	margin: auto;
+	position: relative;
+	top: 430px;
+	background-color: #161718;
+}
+.load:hover {
+	color: #91b2e7 !important;
+	background-color: black;
+}
+footer ul {
+	display: inline-block;
+	font-size: 0.875rem;
+	position: relative;
+	left: 9rem;
+	margin-bottom: 1rem;
+	margin-top: 2rem;
+}
+footer li {
+	display: inline-block;
+	margin-right: 1.1rem;
+}
+footer a {
+	text-decoration: none;
+	color: #c0c0c0;
+	transition: .2s ease-in-out;
+}
+footer a:hover {
+	color: #6795de;
+}
+footer img {
+	height: 1rem;
+	width: 5.75rem;
+}
+.qualified {
+	font-size: 0.75rem;
+	position: relative;
+	left: 9rem;
+	transition: .2s ease-in-out;
+}
+.qualified:hover{
+	color: white;
+}

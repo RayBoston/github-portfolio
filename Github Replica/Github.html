@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link href="./Github.css" rel="stylesheet"/>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Nunito&display=swap" rel="stylesheet">
+		<title>Github</title>
+		<meta name="viewport" content ="width=device-width, initial-scale=1"/>
+		<script src="https://kit.fontawesome.com/6e21e35b55.js" crossorigin="anonymous"></script>
+	</head>
+	<body>
+		<header>
+			<div id="head1">
+				<i class="fa-solid fa-bars" id="menuBar"></i>
+				<a href="https://github.com"><img src="https://seeklogo.com/images/G/github-logo-2E3852456C-seeklogo.com.png" id="headerImage"/></a>
+				<a href="https://github.com"><h1>Dashboard</h1></a>
+			</div>
+			<div id="head2">
+				<i class="fa-solid fa-magnifying-glass" id="magGlass"></i>
+				<input type="search" placeholder="Type / to search" name= "search"/>
+				<button id="headerButton1"><span id="span1">|</span><span id="span2">_</span><i class="fa-solid fa-greater-than" id="headerIcon1"></i>_ </button>
+				<button id="headerButton2"><i class="fa-solid fa-plus"></i><i class="fa-solid fa-caret-down" id="headerIcon2"></i></button>
+				<i class="fa-regular fa-circle-dot" id="circle-dot"></i>
+				<i class="fa-solid fa-code-pull-request" id= "pull-request"></i>
+				<i class="fa-solid fa-inbox"></i>
+				<img src="https://avatars.githubusercontent.com/u/126431043?v=4" id="headerImg"/>
+			</div>
+		</header>
+		<section class="sidebar1">
+			<div>
+				<h2>Top Repositories</h2>
+				<button><a href="https://github.com/new"><i class="fa-solid fa-book-bookmark"></i> New</a></button>
+				<input type="text" name="text" placeholder="Find a repository..."/>
+				<div>
+					<img src="https://avatars.githubusercontent.com/u/126431043?v=4"/>
+					<a href="https://github.com/MasterCoda252/MasterCoda252.github.io" id ="masterLink">MasterCoda252/MasterCoda252.github.io</a>
+				</div>
+				<h2 id="recent"> Recent activity</h2>
+				<div id="descriptionBox"><p>When you take actions across GitHub, we’ll provide links to that activity here.</p></div>
+			</div>
+		</section>
+		<div id="mainSection">
+			<main>
+				<section id="main1">
+					<h1>Home</h1>
+					<ul>
+						<li><a href="https://github.com/orgs/github-community/discussions/categories/feed">Send feedback</a></li>
+						<li>
+							<select name="filter">
+								<option disabled selected>Filter</option>
+								<option disabled>For you feed filters</option>
+								<option disabled>Announcements</option>
+								<option disabled>Releases</option>
+								<option disabled>Sponsors</option>
+								<option disabled>Stars</option>
+								<option disabled >Repositories</option>
+								<option disabled>Follows</option>
+								<option disabled>Recommendations</option>
+							</select>
+						</li>
+					</ul>
+				</section>
+				<section id="main2">
+					<div id="main2Head">
+						<img src="https://www.pngkey.com/png/detail/629-6291879_the-image-is-of-a-greater-than-and.png"/>
+						<h2>Start writing code</h2>
+					</div>
+					<div class="main2Box">
+					<div>
+						<h3>Start a new repository for MasterCoda252</h3>
+						<p>A repository contains all of your project's files, revision history, and collaborator discussion.</p>
+						<h3>Repository name *</h3>
+						<input id ="repository" type="text" name="repository" placeholder="name your new repository..">
+						<form>
+							<input type="radio" id="publicA" name="access" value="public">
+							<label for="publicA">
+								<h4>Public</h4>
+								<span class="privpublSpan"><p>Anyone on the internet can see this repository</p></span>
+							</label>
+							<input type="radio" id="privateA" name="access" value="private">
+							<label for="privateA">
+								<h4>Private</h4>
+								<span class="privpublSpan"><p>You choose who can see and commit to this repository</p></span>
+							</label>
+						</form>
+						<button>Create a new repository</button>
+					</div>
+					</div>
+					<div class="main2Box">
+					<div>
+						<h3>Introduce yourself with a profile README</h3>
+						<p>Share information about yourself by creating a profile README, which appears at the top of your profile page.</p>
+						<div id= "readAndCreate">
+							<p id="readMe">MasterCoda252<span class="readMe">/</span> README<span class="readMe">.md</span></p>
+							<a href="https://github.com/MasterCoda252/MasterCoda252/new/main?filename=README.md&path=%2F&value=-+👋+Hi%2C+I’m+%40MasterCoda252%0A-+👀+I’m+interested+in+...%0A-+🌱+I’m+currently+learning+...%0A-+💞%EF%B8%8F+I’m+looking+to+collaborate+on+...%0A-+📫+How+to+reach+me+...%0A%0A<%21
+							---%0AMasterCoda252%2FMasterCoda252+is+a+✨+special+✨+repository+because+its+%60README.md%60+%28this+file%29+appears+on+your+GitHub+profile.%0AYou+can+click+the+Preview+link+to+take+a+look+at+your+changes.%0A--->%0A">
+							<button id="createButton">Create</button></a>
+						</div>
+						<ol>
+							<li> - 👋 Hi, I’m @MasterCoda252</li>
+							<li> - 👀 I’m interested in ...</li>
+							<li> - 🌱 I’m currently learning ...</li>
+							<li> - 💞️ I’m looking to collaborate on ...</li>
+							<li> - 📫 How to reach me ...</li>
+							<li> - 😄 Pronouns: ...</li>
+							<li> - ⚡ Fun fact: ...</li>
+							<li></li>
+						</ol>
+					</div>
+					</div>
+				</section>
+				<section id="main3">
+					<div id="main3Head">
+						<img src="https://static.thenounproject.com/png/2443857-200.png"/>
+						<h2>Use tools of the trade</h2>
+					</div>
+					<div class="main3Box">
+					<h3>Simplify your development workflow with a GUI</h3>
+					<div>
+						<img src="https://github.githubassets.com/images/modules/dashboard/onboarding/gh-desktop.png" style="width: 37px; height: 37px; border-radius: 20px;">
+						<p><a href="https://desktop.github.com/">Install GitHub Desktop</a> to visualize, commit, and push changes without ever touching the command line.</p>
+					</div>
+					</div>
+					<div class="main3Box">
+					<h3>Install a powerful code editor</h3>
+					<div>
+						<img src="https://github.githubassets.com/images/modules/dashboard/onboarding/vscode.svg" style="width: 37px; height: 37px; border-radius: 20px;">
+						<p><a href="https://desktop.github.com/">Visual Studio Code</a> is a multi-platform code editor optimized for building and debugging modern applications.</p>
+					</div>
+					</div>
+				</section>
+				<section id="main4">
+					<div id="main4Head">
+						<img src="https://i.pngimg.me/thumb/f/720/m2H7H7A0A0b1A0K9.jpg"/>
+						<h2>Get Started on Github</h2>
+					</div>
+					<div id="main4BoxResp" class="main4Box">
+						<iframe width=100% height=100% src="https://www.youtube.com/embed/pBy1zgt0XPc" title="What is GitHub?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+					</div>
+					<div class="main4Box">
+					<div>
+						<i class="fa-solid fa-code-pull-request"></i>
+						<h3>Follow this exercise to try the GitHub flow</h3>
+						<p>GitHub's “Hello World” tutorial teaches you essentials, where you create your own repository and learn GitHub's pull request workflow for creating and reviewing code.</p>
+						<a href="https://docs.github.com/get-started/quickstart/hello-world">Try the Github flow</a>
+					</div>
+					</div>
+					<div class="main4Box2" id="welcomeBox">
+					<div>
+						<h3>Welcome to the new feed!</h3>
+						<p>We’re updating the cards and ranking all the time, so check back regularly. At first, you might need to follow some people or star some repositories to get started 🌱.</p>
+						<a href="https://github.com/orgs/github-community/discussions/categories/feed" id="feedBack">Send feedback</a>
+					</div>
+					</div>
+					<div class="main4Box2" id ="trendingBox">
+					<div>
+						<i class="fa-solid fa-chart-line"></i>
+						<h2>Trending repositories ·</h2>
+						<a href="https://github.com/trending" id="seeMore">See more</a><br/>
+						<a href="https://github.com/SebLague"><img src="https://avatars.githubusercontent.com/u/4266663?s=40&v=4"></a>
+						<a href="https://github.com/SebLague/Chess-Challenge" id="sebRepos">SebLague/Chess-Challenge</a>
+						<form>
+								<i class="fa-regular fa-star" id="star"></i>
+								<select name="Lists" id="Lists">
+								<option selected disabled>Star</option>
+								<option disabled>🔮 Future ideas</option>
+								<option disabled>🚀 My stack</option>
+								<option disabled>✨ Inspiration</option>
+							</select>
+						</form>
+						<p>https://youtu.be/iScy18pVR58</p>
+					</div>
+					</div>
+				</section>
+			</main>
+			<section class="sidebar2">
+				<h2>Latest changes</h2>
+				<ul>
+					<li><h3>10 hours ago</h3> <a href="https://github.blog/changelog/2023-07-19-improved-git-error-message-for-broken-repositories">Improved Git error message for broken repositories</a></li>
+					<li><h3>2 days ago</h3> <a href="https://github.blog/changelog/2023-07-17-migrate-bitbucket-server-and-data-center-repos-to-github-com-public-beta">Migrate Bitbucket Server and Data Center repos to GitHub.com (public...</a></li>
+					<li><h3>3 days ago</h3> <a href="https://github.blog/changelog/2023-07-17-github-actions-removal-of-node12-from-the-actions-runner">GitHub Actions: Removal of Node12 from the Actions runner</a></li>
+					<li><h3>5 days ago</h3> <a href="https://github.blog/changelog/2023-07-14-github-copilot-july-14th-update">GitHub Copilot July 14th Update</a></li>
+				</ul>
+				<a href="https://github.blog/changelog" id="change">View changelog <i class="fa-solid fa-arrow-right-long"></i></a>
+			</section>
+		</div>
+		<footer>
+			<div id="footer">
+				<div id="footerImg">
+					<a href= "https://github.com"><img src="https://i.pinimg.com/564x/b5/1b/78/b51b78ecc9e5711274931774e433b5e6.jpg" title="GitHub" style="width: 51px; height: 51px;"/></a>
+					<p>© 2024 GitHub, Inc.</p>
+				</div>
+				<div id="footerLinks">
+					<ul>
+						<li><a href="https://docs.github.com/site-policy/github-terms/github-terms-of-service">Terms</a></li>
+						<li><a href="https://docs.github.com/site-policy/privacy-policies/github-privacy-statement">Privacy</a></li>
+						<li><a href="https://github.com/security">Security</a></li>
+						<li><a href="https://www.githubstatus.com/">Status</a></li>
+						<li><a href="https://docs.github.com/en">Docs</a></li>
+						<li><a href="https://support.github.com/?tags=dotcom-footer">Contact</a></li>
+						<li><p class="fakeLink">Manage cookies</p></li>
+					</ul>
+					<p class="fakeLink" id="nonList"> Do not share my personal information</p>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>

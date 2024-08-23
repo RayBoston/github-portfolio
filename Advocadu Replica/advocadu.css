@@ -1,0 +1,432 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+	padding: 0;
+	font-family: Poppins;
+}
+.header1{
+	display: inline-block;
+	height: 67px;
+	width: 100%;
+}
+.header1 img{
+	height: 67px;
+	min-width: 15.3%;
+	position: relative;
+	left: 32px;
+	top: 7px;
+}
+.header1 ul{
+	display: inline;
+	float: right;
+	position: relative;
+	right: 22px;
+}
+.header1 li {
+	display: inline-block;
+	font-size: 18px;
+	margin-right: 19px;
+	margin-top: 10px;
+	line-height: 1.6;
+	letter-spacing: 0.25px;
+}
+.header1 a {
+	text-decoration: none;
+	color: black;
+	font-weight: 600;
+}
+.header2 {
+	height: 50px;
+	background-color: #00a61c;
+	position: relative;
+	top: 7px;
+}
+.header2 ul {
+	float: right;
+	position: relative;
+	right: 22px;
+	bottom: 5px;
+}
+.header2 li {
+	display: inline-block;
+	margin-right: 19px;
+	font-size: 18px;
+	letter-spacing: 0.25px;
+}
+.header2 a {
+	text-decoration: none;
+	color: white;
+	font-weight: 600;
+}
+@media only screen and (max-width: 1025px){
+	.header1 ul {
+		visibility: hidden;
+	}
+	.header2 {
+		display: none;
+	}
+}
+@media only screen and (max-width: 1070px) and (min-width: 1025px) {
+	.header2 {
+		height: 100px;
+	}
+	.header2 ul {
+		float: none;
+		text-align: center;
+		margin-top: 0;
+	}
+	.header2 li {
+		margin-top: 15px;
+		margin-bottom: 10px;
+	}
+	
+}
+nav {
+	margin-bottom: -12px;
+}
+.banner {
+	width: 100%;
+	height: 383px;
+	text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://avocadu.com/wp-content/uploads/2022/04/Avocadu-Banner-Image.png);
+	background-size: cover;
+}
+.banner h1{
+	text-shadow: 3px 2px 1px #000000;
+	color: white;
+	font-size: 28px;
+	font-weight: 1000;
+	padding-top: 9px;
+	position: relative;
+	right: 21%;
+	top: 22%;
+	line-height: 1.6;
+}
+.banner p {
+	color: white;
+	font-size: 18px;
+	font-weight: 1000;
+	line-height: 1.6;
+	position: relative;
+	right: 21%;
+	top: 20%;
+	
+}
+.banner a {
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+	font-weight: 1000;
+	background-color:#f54d4d;
+	padding: 9px 15px;
+	border-radius: 3px;
+	letter-spacing: 0.25px;
+	position: relative;
+	right: 21%;
+	top: 25%;
+}
+main h2{
+	text-align: center;
+	font-size: 28px;
+	font-weight: 600;
+	margin-top: 42px;
+	margin-bottom: 0;
+}
+.main{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: start;
+}
+.main figure{
+	width: 390px;
+	height: 690px;
+	margin-right: 0;
+	margin-left: 35px;
+	display: flex;
+	justify-content: center;
+	align-content: flex-start;
+	flex-wrap: wrap;
+}
+.main figcaption{
+	width: 81.5%;
+}
+.main img{
+	width: 100%;
+	height: 250px;
+}
+.main a {
+	text-decoration: none;
+	color: black;
+	font-size: 14px;
+	font-weight: bold;
+	transition: 0.25s;
+}
+.main a:hover {
+	color: #215387;
+}
+.main h3{
+	font-size: 24px !important;
+	font-weight: 1000;
+	margin-top: 25px;
+}
+.main p {
+	font-size: 18px;
+}
+#recent {
+	margin-bottom: 15px;
+}
+.recent {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+.recent figure {
+	width: 390px;
+	height: 690px;
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	align-content: flex-start;
+	flex-wrap: wrap;
+}
+.recent figcaption {
+	width: 81.5%;
+}
+.recent img {
+	width: 100%;
+	height: 250px;
+}
+.recent a {
+	text-decoration: none;
+	color: black;
+	font-size: 14px;
+	font-weight: bold;
+	transition: 0.25s;
+}
+.recent a:hover {
+	color: #215387;
+}
+.recent h3 {
+	font-size: 24px !important;
+	font-weight: 1000;
+}
+.recent p {
+	font-size: 18px;
+}
+#more {
+	color: #00a61c;
+	text-decoration: none;
+	position: relative;
+	bottom: 40px;
+}
+#more h2 {
+	font-size: 23px;
+	font-weight: bolder;
+}
+.fat-loss {
+	width: 100%;
+	height: 350px;
+	display: flex;
+	justify-content: space-around;
+	background-color: #00a61c;
+}
+.fat-loss img {
+	width: 200px;
+	height: 84.5%;
+	margin-left: 275px;
+	margin-top: 25px;
+}
+.fat-loss div{
+	width: 29%;
+	height: auto;
+	margin-right: 185px;
+	position: relative;
+	bottom: 18px;
+}
+.fat-loss h2 {
+	font-size: 35px;
+	font-weight: 600;
+	color: white;
+	text-shadow: 1px 1px black;
+}
+.fat-loss p{
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+
+}
+.fat-loss a {
+	position: relative;
+	left: 23%;
+	text-decoration: none;
+	font-size: 18px;
+	background-color: #f54d4d;
+	color: white;
+	font-weight: bold;
+	padding: 8px 18px 8px 18px;
+	position: relative;
+	top: 20px;
+	border-radius: 2px;
+}
+.yoga-guide {
+	width: 100%;
+	height: 350px;
+	display: flex;
+	justify-content: space-around;
+	background-color: gray;
+}
+.yoga-guide img {
+	width: 260px;
+	height: 84.5%;
+	margin-left: 255px;
+	margin-top: 25px;
+}
+.yoga-guide div{
+	width: 29%;
+	height: auto;
+	margin-right: 195px;
+	position: relative;
+	bottom: 18px;
+}
+.yoga-guide h2 {
+	font-size: 35px;
+	font-weight: 600;
+	color: white;
+	text-shadow: 1px 1px black;
+}
+.yoga-guide p{
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+
+}
+.yoga-guide a {
+	position: relative;
+	left: 23%;
+	text-decoration: none;
+	font-size: 18px;
+	background-color: #f54d4d;
+	color: white;
+	font-weight: bold;
+	padding: 8px 18px 8px 18px;
+	position: relative;
+	top: 20px;
+	border-radius: 2px;
+}
+.probiotics {
+	background-color: #f2f2f2;
+	height: 890px;
+	width: 1240px;
+	border: 1px solid #f2f2f2;
+	box-shadow: 0px 0px 5px 0px #1A202C;
+	transition: 0.2s;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	font-size: 18px;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-align: center;
+}
+.probiotics:hover {
+	box-shadow: 0px 0px 5px 0px #adadad;
+}
+.probiotics img {
+	width: 370px;
+	height: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+}
+.probiotics h2 {
+	font-size: 28px;
+	font-weight: 1000;
+	margin-top: 24px;
+	margin-bottom: 0;
+}
+.probiotics p {
+	margin-top: 10px;
+}
+.probiotics ul {
+	margin-top: 35px;
+	list-style-position: inside;
+	position: relative; 
+	right: 25px;
+}
+.probiotics a {
+	text-decoration: none;
+	color: #00a61c;
+	font-size: 22px;
+	font-weight: 1000;
+}
+#programs {
+	margin-bottom: 15px;
+	font-weight: 1000;
+}
+.programs{
+	height: 500px;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+    background-image: url(https://avocadu.com/wp-content/uploads/2022/04/Avocadu-Banner-Image.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	text-align: center;
+}
+.programs h3 {
+	font-size: 28px;
+    text-shadow: 2px 2px 5px #000000;
+	color: white;
+	font-weight: 1000;
+}
+.programs a {
+	text-decoration: none;
+	font-size: 18px;
+	background-color: #f54d4d;
+	color: white;
+	font-weight: bold;
+	padding: 10px 18px 10px 18px;
+	border-radius: 2px;
+	font-weight: 1000;
+}
+footer {
+	background-color: black;
+	color: white;
+	text-align: center;
+	width: 100%;
+	height: 280px;
+	padding-left: 45px;
+	padding-right: 75px;
+}
+footer ul {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 0;
+	position: relative;
+	top: 145px;
+}
+footer li {
+	list-style: none;
+	font-size: 18px;
+}
+footer a {
+	text-decoration: none;
+	color: white;
+	transition: 0.25s;
+}
+footer a:hover {
+	color: #2b6cb0;
+}
+footer p{
+	font-size: 87.5%;
+	position: relative;
+	top: 160px;
+	line-height: 2;
+}
