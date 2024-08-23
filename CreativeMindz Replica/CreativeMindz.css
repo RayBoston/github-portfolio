@@ -93,7 +93,7 @@ header i {
 	width: 100%;
 	background-color: #3d4246;
 	margin-top: 0;
-	background-image:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("https://scontent-iad3-1.xx.fbcdn.net/v/t1.6435-9/68653554_2358600197711934_4621563343696560128_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=5f2048&_nc_ohc=5TyZ_I27PskQ7kNvgEjMMD2&_nc_ht=scontent-iad3-1.xx&oh=00_AYD6Ai6Lk3vvh2-jEALA8BARSaTtJz9hwQVoZ6GlrCu5aQ&oe=66860A96");
+	background-image:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("./Images/mindzheader.jpg");
 	background-size: cover;
 	background-position: center;
 }
@@ -153,7 +153,7 @@ header i {
 	width: 100%;
 	background-color: #3d4246;
 	margin-top: 0px;
-	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("https://scontent-atl3-1.xx.fbcdn.net/v/t1.6435-9/86994889_2517288075176478_1100236837298896896_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_ohc=5ZPHQwoSingQ7kNvgHHEAyW&_nc_ht=scontent-atl3-1.xx&oh=00_AYDk2GhVSvCsHnBa05pNHqfcvrhLR4toqhRzNXfsUgRODw&oe=668617C9");
+	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("./Images/mindzfooter.jpg");
 	background-size: cover;
 	background-position: center top;
 	

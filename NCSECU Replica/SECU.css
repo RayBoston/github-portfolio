@@ -125,7 +125,7 @@ body {
 	height: 22em;
 	grid-template: repeat(1em, 22) / repeat(1%, 100);
 	background-repeat: no-repeat;
-	background-image: url("https://www.ncsecu.org/resources/learn/what-is-a-credit-union/_jcr_content/_cq_featuredimage.coreimg.jpeg/1714756332889/frontviewofsecubranchbuilding.jpeg");
+	background-image: url("./Images/SECU Building Header.jpeg");
 	background-position: center;
 	background-size: cover;
 }
