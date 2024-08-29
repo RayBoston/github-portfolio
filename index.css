@@ -31,3 +31,27 @@ header li {
     font-size: 1.1em;
     padding-right: 15px;
 }
+
+#About-Me {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#About-Me-Text {
+    width: 700px;
+}
+#About-Me-Image {
+    height: 400px;
+    width: 250px;
+    overflow: hidden;
+    margin: 20px;
+    padding-top: 50px;
+}
+#About-Me-Image img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid white;
+    border-radius: 200px;
+}
