@@ -3,6 +3,8 @@
 }
 body {
     background-color: black;
+    padding: 0;
+    margin: 0;
     color: #f85b68;
     font-size: 16px;
     font-family: "Open Sans", sans-serif;
@@ -54,4 +56,26 @@ header li {
     height: auto;
     border: 1px solid white;
     border-radius: 200px;
+}
+
+#My-Replicas{
+    
+}
+
+#My-Skills{
+text-align: center;
+padding: 0;
+}
+#My-Skills ul{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 0;
+}
+#My-Skills li {
+    display: inline-block;
+    border: 1px solid #f85b68;
+    border-radius: 10px;
+    width: 16.67%;
+    
 }
