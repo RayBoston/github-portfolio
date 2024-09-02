@@ -58,8 +58,17 @@ header li {
     border-radius: 200px;
 }
 
-#My-Replicas{
-    
+#My-Replicas {
+   
+}
+.My-Replicas-Images {
+    height: 400px;
+    width: 90%;
+    overflow: hidden;
+}
+#My-Replicas img {
+    max-width: 100%;
+    height: auto;
 }
 
 #My-Skills{
