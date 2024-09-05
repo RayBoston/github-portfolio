@@ -61,10 +61,20 @@ header li {
 #My-Replicas {
    
 }
+#My-Replicas p {
+    margin-bottom: 50px;
+}
+#My-Replicas li {
+    margin-bottom: 100px;
+}
+#My-Replicas a {
+    margin-left: 20px;
+}
 .My-Replicas-Images {
     height: 400px;
     width: 90%;
     overflow: hidden;
+    margin-top: 15px;
 }
 #My-Replicas img {
     max-width: 100%;
