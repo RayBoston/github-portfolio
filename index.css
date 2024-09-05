@@ -5,7 +5,7 @@ body {
     background-color: black;
     padding: 0;
     margin: 0;
-    color: #f85b68;
+    color: white;
     font-size: 16px;
     font-family: "Open Sans", sans-serif;
 }
@@ -16,13 +16,22 @@ h1, h2 {
 header {
     width: 100%;
     display: flex;
+    position:fixed;
     margin: 0 auto;
     justify-content: space-evenly;
     align-items: center;
+    background-color: black;
+    border-bottom: 1px solid #f01d2e;
+    border-top: 1px solid #f01d2e;
+    border-radius: 10px;
 }
 header h1{
     font-size: 1.9em;
     margin: 0;
+    color:#f73a4a;
+}
+header h1:hover{
+    color:#f01d2e;
 }
 header ul {
     display: inline-flex;
@@ -32,10 +41,19 @@ header li {
     display: inline-block;
     font-size: 1.1em;
     padding-right: 15px;
+    color:#f73a4a;
+}
+header li:hover {
+    text-decoration: underline;
+}
+header a {
+    color:#f73a4a;
+    text-decoration: none;
 }
 
 #About-Me {
     width: 100%;
+    padding-top: 60px;
     margin: 0 auto;
     display: flex;
     align-items: center;
