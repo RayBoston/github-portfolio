@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: black;
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+}
+h1 {
+    font-family:"Proza Libre";
+    color:#f73a4a;
+}
+h2 {
+    font-size: 1.6em;
+    color: white;
+    font-family:"Proza Libre";
+}
+p{
+    font-size: 1.2em;
+    line-height: 1.25em;
+    color: #f73a4a;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: black;
+    border-bottom: 1px solid #f73a4a;
+    border-top: 1px solid #f73a4a;
+    border-radius: 10px;
+}
+header h1{
+    font-size: 1.9em;
+    margin: 0;
+}
+header h1:hover{
+    color:#f01d2e;
+}
+header ul {
+    display: inline-flex;
+    justify-content: space-between;
+}
+header li {
+    display: inline-block;
+    font-size: 1.1em;
+    padding-right: 15px;
+    color:#f73a4a
+}
+header li:hover {
+    text-decoration: underline;
+}
+header a {
+    color:white;
+    text-decoration: none;
+}
+
+main li{
+    font-size: 1.1em;
+    line-height: 1.5em;
+    list-style: none;
+}
+main a{
+    color: #1966FF;
+    text-decoration: none;
+}
+main a:hover {
+    text-decoration: underline;
+}
+#contact-email {
+    color: #884DFF;
+}
+#contact-email:hover {
+    cursor: pointer;
+}
