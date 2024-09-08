@@ -14,7 +14,7 @@ h1 {
     color:#f73a4a;
 }
 h2 {
-    font-size: 1.6em;
+    font-size: 1.7em;
     color: white;
     font-family:"Proza Libre";
 }
@@ -60,6 +60,10 @@ header a {
     text-decoration: none;
 }
 
+main{
+    width: 58%;
+    margin: 40px auto;
+}
 main li{
     font-size: 1.1em;
     line-height: 1.5em;
