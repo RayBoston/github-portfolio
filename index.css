@@ -141,3 +141,14 @@ padding: 0;
     width: 16.67%;
     font-size: 1.05em;
 }
+
+@media screen and (max-width: 822px) {
+    #My-Skills ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    #My-Skills li {
+        width: 75%;
+        border-radius: 0;
+    }
+}
