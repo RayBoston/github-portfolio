@@ -83,7 +83,7 @@ main a:hover {
     cursor: pointer;
 }
 #contact-email-address{
-    display: none;
+    visibility: hidden;
 }
 #caret-down {
     display: none;
