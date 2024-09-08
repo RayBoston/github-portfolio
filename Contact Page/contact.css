@@ -82,3 +82,9 @@ main a:hover {
 #contact-email:hover {
     cursor: pointer;
 }
+#contact-email-address{
+    display: none;
+}
+#caret-down {
+    display: none;
+}
