@@ -12,4 +12,3 @@ function showEmail() {
 
     email.onclick = showEmail;
     emailRightCaret.onclick = showEmail;
-    email.removeEventListener(click, showEmail);
