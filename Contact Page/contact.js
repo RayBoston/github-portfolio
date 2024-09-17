@@ -5,9 +5,15 @@ const emailRightCaret = document.getElementById("caret-right");
 
 
 function showEmail() {
-        emailAddress.style.visibility = "visible";
-        emailDownCaret.style.display = "initial";
-        emailRightCaret.style.display = "none";
+        if (emailAddress.style.visibility !== "visible") {  
+                emailAddress.style.visibility = "visible";
+                emailDownCaret.style.display = "initial";
+                emailRightCaret.style.display = "none";
+        } else {
+                emailAddress.style.visibility = "hidden";
+                emailDownCaret.style.display = "none";
+                emailRightCaret.style.display = "initial";
+        }
 }
 
     email.onclick = showEmail;
