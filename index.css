@@ -75,11 +75,12 @@ header a:hover {
 
 #About-Me {
     width: 100%;
-    padding-top: 60px;
+    padding-top: 80px;
     margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: space-around;
+    margin-bottom: 45px;
 }
 #About-Me-Text {
     width: 700px;
@@ -100,7 +101,8 @@ header a:hover {
     border: 6px solid #45444466;
 }
 
-#My-Replicas h2{
+#My-Replicas {
+    margin-bottom: 80px;
 }
 #My-Replicas p {
     margin-bottom: 50px;
