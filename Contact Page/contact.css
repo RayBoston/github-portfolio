@@ -38,6 +38,7 @@ header {
 header h1{
     font-size: 1.9em;
     margin: 0;
+    transition: color 0.2s ease-in-out;
 }
 header h1:hover{
     color:#f01d2e;
@@ -52,12 +53,13 @@ header li {
     padding-right: 15px;
     color:#f73a4a
 }
-header li:hover {
-    text-decoration: underline;
-}
 header a {
     color:white;
     text-decoration: none;
+    transition: color 0.2s ease-in-out;
+}
+header a:hover {
+    color:#f73a4a;
 }
 
 main{
