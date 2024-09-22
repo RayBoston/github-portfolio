@@ -139,6 +139,11 @@ header a:hover {
     width: 375px;
     overflow: hidden;
     margin-top: 15px;
+    transition: all .2s ease-in-out;
+}
+.My-Replicas-Images:hover {
+    width: 450px;
+    height: 100%;
 }
 #My-Replicas img {
     max-width: 100%;
