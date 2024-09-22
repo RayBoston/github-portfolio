@@ -49,6 +49,7 @@ header {
 header h1{
     font-size: 1.9em;
     margin: 0;
+    transition: color 0.2s ease-in-out;
 }
 header h1:hover{
     color:#f01d2e;
@@ -61,14 +62,15 @@ header li {
     display: inline-block;
     font-size: 1.1em;
     padding-right: 15px;
-    color:#f73a4a
-}
-header li:hover {
-    text-decoration: underline;
+    color:#f73a4a;
 }
 header a {
     color:white;
     text-decoration: none;
+    transition: color 0.2s ease-in-out;
+}
+header a:hover {
+    color:#f73a4a;
 }
 
 #About-Me {
@@ -103,25 +105,45 @@ header a {
 #My-Replicas p {
     margin-bottom: 50px;
 }
+#My-Replicas ol {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    width: 95%;
+    height: 600px;
+    padding: 0;
+    border: 5px solid #121111;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px
+}
 #My-Replicas li {
-    margin-bottom: 100px;
-    font-size: 1.3em;
     list-style: none;
+    height: 216px;
 }
 #My-Replicas a {
-    margin-left: 1px;
+    font-size: 1.1em;
+    text-align: center;
+    width: 100%;
+    display: inline-block;
     text-decoration: none;
+    color: #e8d3d3;
+    transition: color 0.2s ease-in-out;
+}
+#My-Replicas a:hover {
     color: #f73a4a;
 }
 .My-Replicas-Images {
-    height: 625px;
-    width: 90%;
+    height: 85%;
+    width: 375px;
     overflow: hidden;
     margin-top: 15px;
 }
 #My-Replicas img {
     max-width: 100%;
     height: auto;
+    border-radius: 20px;
 }
 
 #My-Skills{
