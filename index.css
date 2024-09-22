@@ -111,7 +111,6 @@ header a:hover {
     justify-content: space-around;
     align-content: space-around;
     width: 95%;
-    height: 600px;
     padding: 0;
     border: 5px solid #121111;
     margin-left: auto;
@@ -121,6 +120,8 @@ header a:hover {
 #My-Replicas li {
     list-style: none;
     height: 216px;
+    margin-top: 45px;
+    margin-bottom: 45px;
 }
 #My-Replicas a {
     font-size: 1.1em;
@@ -195,11 +196,5 @@ padding: 0;
     #My-Skills li {
         width: 75%;
         border-radius: 0;
-    }
-}
-@media screen and (max-width: 725px) {
-    #My-Skills{
-        position: relative;
-        bottom: 100px;
     }
 }
