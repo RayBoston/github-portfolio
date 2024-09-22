@@ -72,17 +72,20 @@ main li{
     list-style: none;
 }
 main a{
-    color: #1966FF;
+    color: #e8d3d3;
     text-decoration: none;
+    transition: all 0.2s ease-in-out;
 }
 main a:hover {
-    text-decoration: underline;
+    color: #1966FF;
 }
 #contact-email {
-    color: #884DFF;
+    color: #e8d3d3;
+    transition: all 0.2s ease-in-out;
 }
 #contact-email:hover {
     cursor: pointer;
+    color: #884DFF;
 }
 #contact-email-address{
     visibility: hidden;
