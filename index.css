@@ -79,10 +79,11 @@ header a:hover {
     margin: 0 auto;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
 }
 #About-Me-Text {
     width: 700px;
+    margin-left: 40px;
 }
 #About-Me-Text h2 {
 }
@@ -90,14 +91,13 @@ header a:hover {
     height: 400px;
     width: 250px;
     overflow: hidden;
-    margin: 20px;
+    margin-right: 60px;
     padding-top: 50px;
 }
 #About-Me-Image img {
     max-width: 100%;
     height: auto;
-    border: 1px solid white;
-    border-radius: 200px;
+    border: 6px solid #45444466;
 }
 
 #My-Replicas h2{
@@ -178,18 +178,13 @@ padding: 0;
         margin-right: auto;
     }
 }
-@media screen and (max-width: 995px){
+@media screen and (max-width: 1007px){
     #About-Me {
         flex-wrap: wrap;
     }
     #About-Me-Image {
         height: 350px;
         width: 200px;
-    }
-
-    #My-Replicas li {
-        margin-bottom: -200px;
-      
     }
 }
 @media screen and (max-width: 822px) {
