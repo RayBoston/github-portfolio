@@ -39,7 +39,7 @@ header {
     display: flex;
     position:fixed;
     margin: 0 auto;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     background-color: black;
     border-bottom: 1px solid #f73a4a;
