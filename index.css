@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 body {
-    background-image: url('./Images/red-sparkles-background.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url('./Images/red-sparkles-background.jpg');
     background-color: black;
     padding: 0;
     margin: 0;
