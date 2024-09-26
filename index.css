@@ -108,8 +108,13 @@ header a:hover {
 #My-Replicas {
     margin-bottom: 80px;
 }
+#My-Replicas h2 {
+    margin-left: 10px;
+}
 #My-Replicas p {
     margin-bottom: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 #My-Replicas ol {
     display: flex;
