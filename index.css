@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 body {
-    background-color: black;
+    background-image: url('./Images/red-sparkles-background.jpg');
     padding: 0;
     margin: 0;
     color: white;
