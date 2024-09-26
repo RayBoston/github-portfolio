@@ -3,6 +3,7 @@
 }
 body {
     background-image: url('./Images/red-sparkles-background.jpg');
+    background-color: black;
     padding: 0;
     margin: 0;
     color: white;
