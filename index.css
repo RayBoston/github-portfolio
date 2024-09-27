@@ -180,11 +180,10 @@ padding: 0;
 #My-Skills li {
     display: inline-block;
     font-size: 1.05em;
-    background-color: transparent;
     margin-bottom: 20px;
 }
 #My-Skills .fa-brands {
-    font-size: 2.5em;
+    font-size: 3em;
     transition: all 1s ease-in-out;
     color:white;
     text-shadow: 1px 1px 40px red;
