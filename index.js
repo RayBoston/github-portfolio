@@ -23,7 +23,7 @@ const nodeDescription = document.getElementsByTagName("span")[5];
 function showLanguageDescription(targetHeading, targetDescription) {
     if (targetDescription.style.visibility === "hidden") {
         targetDescription.style.visibility = "visible";
-        targetHeading.style.color = "red";
+        targetHeading.style.color = "#f73a4a";
 
     } else {
         targetDescription.style.visibility = "hidden";
