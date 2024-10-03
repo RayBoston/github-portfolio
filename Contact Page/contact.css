@@ -18,7 +18,7 @@ h1 {
 h2 {
     font-size: 1.7em;
     color: white;
-    font-family:"Proza Libre";
+    font-family: "Merriweather", serif;
 }
 p{
     font-size: 1.2em;
@@ -38,9 +38,10 @@ header {
     border-radius: 10px;
 }
 header h1{
-    font-size: 1.9em;
+    font-size: 1.7em;
     margin: 0;
     transition: color 0.2s ease-in-out;
+    font-family: "Merriweather", serif;
 }
 header h1:hover{
     color:#f01d2e;
@@ -53,7 +54,8 @@ header li {
     display: inline-block;
     font-size: 1.1em;
     padding-right: 15px;
-    color:#f73a4a
+    color:#f73a4a;
+    font-family: "Merriweather", serif;
 }
 header a {
     color:white;
@@ -68,13 +70,18 @@ main{
     width: 58%;
     margin: 95px auto;
 }
+main p {
+    margin-bottom: 30px;
+    font-weight: bold;
+}
 main li{
     font-size: 1.1em;
-    line-height: 1.5em;
+    line-height: 2em;
     list-style: none;
+    font-family: "Merriweather", serif;
 }
 main a{
-    color: #e8d3d3;
+    color: white;
     text-decoration: none;
     transition: all 0.2s ease-in-out;
 }
@@ -82,7 +89,7 @@ main a:hover {
     color: #1966FF;
 }
 #contact-email {
-    color: #e8d3d3;
+    color: white;
     transition: all 0.2s ease-in-out;
 }
 #contact-email:hover {
