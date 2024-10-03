@@ -24,14 +24,14 @@ body {
     background-color: #f73a4a;
 }
 h1, h2 {
-    font-family:"Proza Libre";
+    font-family: "Merriweather", serif;
     color:#f73a4a;
 }
 h2 {
     font-size: 1.6em;
 }
 p{
-    font-size: 1.15em;
+    font-size: 1.2em;
     line-height: 1.4em;
 }
 
@@ -48,9 +48,10 @@ header {
     border-radius: 10px;
 }
 header h1{
-    font-size: 1.9em;
+    font-size: 1.7em;
     margin: 0;
     transition: color 0.2s ease-in-out;
+    font-family: "Merriweather", serif;
 }
 header h1:hover{
     color:#f01d2e;
@@ -64,6 +65,7 @@ header li {
     font-size: 1.1em;
     padding-right: 15px;
     color:#f73a4a;
+    font-family: "Merriweather", serif;
 }
 header a {
     color:white;
@@ -134,6 +136,7 @@ header a:hover {
     height: 216px;
     margin-top: 45px;
     margin-bottom: 45px;
+    font-family: "Merriweather", serif;
 }
 #My-Replicas a {
     font-size: 1.1em;
@@ -184,6 +187,7 @@ padding: 0;
     margin-left: 5px;
     margin-right: 5px;
     width: 233px;
+    font-family: "Merriweather", serif;
 }
 #My-Skills .fa-brands {
     font-size: 3em;
@@ -203,6 +207,8 @@ padding: 0;
     line-height: 1.5em;
     text-align: left;
     visibility: hidden;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.05em;
 }
 
 @media screen and (max-width: 599px) {
