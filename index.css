@@ -107,18 +107,18 @@ header a:hover {
     border: 1px solid black;
 }
 
-#My-Replicas {
+#My-Projects {
     margin-bottom: 80px;
 }
-#My-Replicas h2 {
+#My-Projects h2 {
     margin-left: 10px;
 }
-#My-Replicas p {
+#My-Projects p {
     margin-bottom: 40px;
     margin-left: 10px;
     margin-right: 10px;
 }
-#My-Replicas ol {
+#My-Projects ol {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -131,14 +131,14 @@ header a:hover {
     margin-right: auto;
     border-radius: 20px
 }
-#My-Replicas li {
+#My-Projects li {
     list-style: none;
     height: 216px;
     margin-top: 45px;
     margin-bottom: 45px;
     font-family: "Merriweather", serif;
 }
-#My-Replicas a {
+#My-Projects a {
     font-size: 1.1em;
     text-align: center;
     width: 100%;
@@ -147,21 +147,21 @@ header a:hover {
     color: white;
     transition: color 0.2s ease-in-out;
 }
-#My-Replicas a:hover {
+#My-Projects a:hover {
     color: #f73a4a;
 }
-.My-Replicas-Images {
+.My-Projects-Images {
     height: 85%;
     width: 375px;
     overflow: hidden;
     margin-top: 15px;
     transition: all .2s ease-in-out;
 }
-.My-Replicas-Images:hover {
+.My-Projects-Images:hover {
     width: 450px;
     height: 101%;
 }
-#My-Replicas img {
+#My-Projects img {
     max-width: 100%;
     height: auto;
     border-radius: 20px;
