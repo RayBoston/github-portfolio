@@ -28,7 +28,7 @@ h1, h2 {
     color:#f73a4a;
 }
 h2 {
-    font-size: 1.6em;
+    font-size: 1.7em;
 }
 p{
     font-size: 1.2em;
@@ -88,17 +88,19 @@ header a:hover {
 #About-Me-Text {
     width: 700px;
     margin-left: 40px;
+    margin-right: 35px;
     background-color: rgba(0.01,0.01,0.02, 0.25);
     border: 5px solid #080808;
     padding-left: 5px;
 }
 #About-Me-Text h2 {
+    text-align: center;
 }
 #About-Me-Image {
     height: 400px;
     width: 250px;
     overflow: hidden;
-    margin-right: 60px;
+    margin-right: 8%;
     padding-top: 50px;
 }
 #About-Me-Image img {
@@ -111,12 +113,12 @@ header a:hover {
     margin-bottom: 80px;
 }
 #My-Projects h2 {
-    margin-left: 10px;
+    text-align: center;
 }
 #My-Projects p {
     margin-bottom: 40px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 55px;
+    margin-right: 30px;
 }
 #My-Projects ol {
     display: flex;
@@ -172,6 +174,8 @@ text-align: center;
 padding: 0;
 }
 #My-Skills p {
+    margin-left: 35px;
+    margin-right: 35px;
     margin-bottom: 50px;
 }
 #My-Skills ul{
@@ -220,13 +224,14 @@ padding: 0;
         margin-right: auto;
     }
 }
-@media screen and (max-width: 1007px){
+@media screen and (max-width: 989px){
     #About-Me {
         flex-wrap: wrap;
     }
     #About-Me-Image {
         height: 350px;
         width: 200px;
+        margin: auto;
     }
 }
 @media screen and (max-width: 822px) {
